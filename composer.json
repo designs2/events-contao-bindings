@@ -1,5 +1,5 @@
 {
-  "name": "contao-community-alliance/events-contao-bindings",
+  "name": "designs2/events-contao-bindings",
   "description": "This library turns the Contao Core API into events.",
   "keywords": [
     "contao",
@@ -25,17 +25,17 @@
     "email": "info@contao-community-alliance.de",
     "issues": "https://github.com/contao-community-alliance/events-contao-bindings/issues",
     "irc": "irc://irc.freenode.org/contao.cca",
-    "source": "https://github.com/contao-community-alliance/events-contao-bindings"
+    "source": "https://github.com/designs2/events-contao-bindings"
   },
   "require": {
     "php": ">=5.3",
     "contao/core": ">=3.3,<3.6-dev",
-    "contao-community-alliance/composer-plugin": "~2.0",
-    "contao-community-alliance/event-dispatcher": "~1.0"
+    "contao-community-alliance/composer-plugin": "*",
+    "designs2/event-dispatcher": "*"
   },
   "require-dev": {
-    "phpcq/all-tasks": "~1.0",
-    "phpunit/phpunit": ">=3.7.10,<4-dev"
+    "phpcq/all-tasks": "*",
+    "phpunit/phpunit": "*"
   },
   "autoload": {
     "psr-0": {
